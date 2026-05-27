@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="650.0" prefWidth="1200.0" xmlns="http://javafx.com/javafx/20.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="it.polimi.ingsw.controller.WaitingRoomController">
+    <children>
+        <AnchorPane layoutY="-55.0" prefHeight="455.0" prefWidth="623.0" />
+        <ImageView fitHeight="664.0" fitWidth="1262.0" layoutY="-14.0">
+            <image>
+                <Image url="@Graphics/misc/base_pagina2.jpg" />
+            </image>
+        </ImageView>
+      <Label alignment="CENTER" layoutX="437.0" layoutY="138.0" prefHeight="34.0" prefWidth="387.0" text="the game will start soon..." textFill="#efefef">
+         <font>
+            <Font name="MS Gothic" size="18.0" />
+         </font>
+      </Label>
+      <Label alignment="CENTER" layoutX="295.0" layoutY="32.0" prefHeight="153.0" prefWidth="656.0" text="WAITING ROOM" textFill="#efefef">
+         <font>
+            <Font name="Monotype Corsiva" size="48.0" />
+         </font>
+      </Label>
+      <Label alignment="CENTER" layoutX="41.0" layoutY="207.0" prefHeight="34.0" prefWidth="343.0" text="Goal                                                   Rulebook" textAlignment="JUSTIFY" textFill="#efefef" wrapText="true">
+         <font>
+            <Font name="Rockwell" size="14.0" />
+         </font>
+      </Label>
+      <Label alignment="CENTER" layoutX="462.0" layoutY="207.0" prefHeight="34.0" prefWidth="311.0" text="Gameplay                                                   Rulebook" textAlignment="JUSTIFY" textFill="#efefef" wrapText="true">
+         <font>
+            <Font name="Rockwell" size="14.0" />
+         </font>
+      </Label>
+      <Label alignment="CENTER" layoutX="861.0" layoutY="207.0" prefHeight="34.0" prefWidth="369.0" text="Scoring                                                                        Rulebook" textAlignment="JUSTIFY" textFill="#efefef" wrapText="true">
+         <font>
+            <Font name="Rockwell" size="14.0" />
+         </font>
+      </Label>
+      <Label alignment="CENTER" layoutX="467.0" layoutY="241.0" prefHeight="75.0" prefWidth="311.0" text="The game is divided in turns. During your turn, you must take 1, 2 or 3 item tiles from the living room board, following these rules: The tiles you take must be adjacent to each other and form a straight line." textAlignment="JUSTIFY" textFill="#efefef" textOverrun="CLIP" wrapText="true">
+         <font>
+            <Font name="Cambria Bold Italic" size="12.0" />
+         </font>
+      </Label>
+      <Label alignment="CENTER" layoutX="467.0" layoutY="318.0" prefHeight="118.0" prefWidth="311.0" text="All the tiles you take must have at least one side free (not  touching directly other tiles) at the beginning of your turn (i.e. you cannot take a tile that becomes free after your first  pick). Then, you must decide the order and a column of your  bookshelf to put the tiles in. If in the board there are only tiles without any other adjacent tile, or the board is empty, it will be automatically refilled." textAlignment="JUSTIFY" textFill="#efefef" textOverrun="CLIP" wrapText="true">
+         <font>
+            <Font name="Cambria Bold Italic" size="12.0" />
+         </font>
+      </Label>
+      <Label alignment="CENTER" layoutX="73.0" layoutY="241.0" prefHeight="90.0" prefWidth="311.0" text="Players take item tiles from the living room and place them in their bookshelves to score points; the game ends when a player completely fills their bookshelf. The player with more points at the end will win the game. There are 4 ways to score points:" textAlignment="JUSTIFY" textFill="#efefef" textOverrun="CLIP" wrapText="true">
+         <font>
+            <Font name="Cambria Bold Italic" size="12.0" />
+         </font>
+      </Label>
+      <Label alignment="CENTER" layoutX="459.0" layoutY="448.0" prefHeight="34.0" prefWidth="327.0" text="Game End                                                     Rulebook" textAlignment="JUSTIFY" textFill="#efefef" wrapText="true">
+         <font>
+            <Font name="Rockwell" size="14.0" />
+         </font>
+      </Label>
+      <Label alignment="CENTER" layoutX="467.0" layoutY="477.0" prefHeight="90.0" prefWidth="311.0" text="The first player who fills all the spaces of their bookshelf takes the end game token. This declares the last round: the game continues until all players have played the same number of turns. The player who scored most points wins the game." textAlignment="JUSTIFY" textFill="#efefef" textOverrun="CLIP" wrapText="true">
+         <font>
+            <Font name="Cambria Bold Italic" size="12.0" />
+         </font>
+      </Label>
+      <Label alignment="CENTER" layoutX="73.0" layoutY="338.0" prefHeight="22.0" prefWidth="115.0" text="PersonalGoalCard: " textAlignment="JUSTIFY" textFill="#efefef" textOverrun="CLIP" wrapText="true">
+         <font>
+            <Font name="Cambria Bold Italic" size="12.0" />
+         </font>
+      </Label>
+      <Label alignment="CENTER" layoutX="203.0" layoutY="338.0" prefHeight="68.0" prefWidth="196.0" text="The personal goal card grants points if you match the highlighted spaces with the corresponding item tiles." textAlignment="JUSTIFY" textFill="#efefef" textOverrun="CLIP" wrapText="true">
+         <font>
+            <Font name="Cambria Bold Italic" size="12.0" />
+         </font>
+      </Label>
+      <Label alignment="CENTER" layoutX="73.0" layoutY="413.0" prefHeight="22.0" prefWidth="115.0" text="CommonGoalCard:" textAlignment="JUSTIFY" textFill="#efefef" textOverrun="CLIP" wrapText="true">
+         <font>
+            <Font name="Cambria Bold Italic" size="12.0" />
+         </font>
+      </Label>
+      <Label alignment="CENTER" layoutX="203.0" layoutY="409.0" prefHeight="62.0" prefWidth="196.0" text="The common goal cards grant points to the players who achieve the illustrated patterns." textAlignment="JUSTIFY" textFill="#efefef" textOverrun="CLIP" wrapText="true">
+         <font>
+            <Font name="Cambria Bold Italic" size="12.0" />
+         </font>
+      </Label>
+      <Label alignment="CENTER" layoutX="861.0" layoutY="245.0" prefHeight="22.0" prefWidth="115.0" text="PersonalGoalCard: " textAlignment="JUSTIFY" textFill="#efefef" textOverrun="CLIP" wrapText="true">
+         <font>
+            <Font name="Cambria Bold Italic" size="12.0" />
+         </font>
+      </Label>
+      <Label alignment="CENTER" layoutX="1036.0" layoutY="245.0" prefHeight="68.0" prefWidth="196.0" text="1/2/4/6/9/12 points for 1/2/3/4/5/6 item tiles in the exact position illustrated by their personal goal card." textAlignment="JUSTIFY" textFill="#efefef" textOverrun="CLIP" wrapText="true">
+         <font>
+            <Font name="Cambria Bold Italic" size="12.0" />
+         </font>
+      </Label>
+      <Label alignment="CENTER" layoutX="73.0" layoutY="477.0" prefHeight="22.0" prefWidth="115.0" text="Adjacent Item tiles:" textAlignment="JUSTIFY" textFill="#efefef" textOverrun="CLIP" wrapText="true">
+         <font>
+            <Font name="Cambria Bold Italic" size="12.0" />
+         </font>
+      </Label>
+      <Label alignment="CENTER" layoutX="73.0" layoutY="567.0" prefHeight="22.0" prefWidth="115.0" text="Game-end trigger:" textAlignment="JUSTIFY" textFill="#efefef" textOverrun="CLIP" wrapText="true">
+         <font>
+            <Font name="Cambria Bold Italic" size="12.0" />
+         </font>
+      </Label>
+      <Label alignment="CENTER" layoutX="203.0" layoutY="478.0" prefHeight="82.0" prefWidth="196.0" text="Groups of adjacent item tiles of the same type on your bookshelf grant points depending on how many tiles are connected (with one side touching)." textAlignment="JUSTIFY" textFill="#efefef" textOverrun="CLIP" wrapText="true">
+         <font>
+            <Font name="Cambria Bold Italic" size="12.0" />
+         </font>
+      </Label>
+      <Label alignment="CENTER" layoutX="197.0" layoutY="563.0" prefHeight="62.0" prefWidth="196.0" text="The first player who completely fills their bookshelf scores 1 additional point. " textAlignment="JUSTIFY" textFill="#efefef" textOverrun="CLIP" wrapText="true">
+         <font>
+            <Font name="Cambria Bold Italic" size="12.0" />
+         </font>
+      </Label>
+      <Label alignment="CENTER" layoutX="861.0" layoutY="330.0" prefHeight="22.0" prefWidth="115.0" text="CommonGoalCard:" textAlignment="JUSTIFY" textFill="#efefef" textOverrun="CLIP" wrapText="true">
+         <font>
+            <Font name="Cambria Bold Italic" size="12.0" />
+         </font>
+      </Label>
+      <Label alignment="CENTER" layoutX="861.0" layoutY="389.0" prefHeight="22.0" prefWidth="115.0" text="Adjacent Item tiles:" textAlignment="JUSTIFY" textFill="#efefef" textOverrun="CLIP" wrapText="true">
+         <font>
+            <Font name="Cambria Bold Italic" size="12.0" />
+         </font>
+      </Label>
+      <Label alignment="CENTER" layoutX="861.0" layoutY="454.0" prefHeight="22.0" prefWidth="115.0" text="Game-end trigger:" textAlignment="JUSTIFY" textFill="#efefef" textOverrun="CLIP" wrapText="true">
+         <font>
+            <Font name="Cambria Bold Italic" size="12.0" />
+         </font>
+      </Label>
+      <Label alignment="CENTER" layoutX="1036.0" layoutY="385.0" prefHeight="56.0" prefWidth="196.0" text="2/3/5/8 points for groups of 3/4/5/6+ item tiles of the same type adjacent on their bookshelf." textAlignment="JUSTIFY" textFill="#efefef" textOverrun="CLIP" wrapText="true">
+         <font>
+            <Font name="Cambria Bold Italic" size="12.0" />
+         </font>
+      </Label>
+      <Label alignment="CENTER" layoutX="1036.0" layoutY="315.0" prefHeight="68.0" prefWidth="196.0" text="8/6/4/2 points for the 1°/2°/3°/4° player to complete the Goal." textAlignment="JUSTIFY" textFill="#efefef" textOverrun="CLIP" wrapText="true">
+         <font>
+            <Font name="Cambria Bold Italic" size="12.0" />
+         </font>
+      </Label>
+      <Label alignment="CENTER" layoutX="1036.0" layoutY="450.0" prefHeight="62.0" prefWidth="196.0" text="The first player who completely fills their bookshelf scores 1 additional point. " textAlignment="JUSTIFY" textFill="#efefef" textOverrun="CLIP" wrapText="true">
+         <font>
+            <Font name="Cambria Bold Italic" size="12.0" />
+         </font>
+      </Label>
+      <Label alignment="CENTER" layoutX="903.0" layoutY="594.0" prefHeight="34.0" prefWidth="230.0" text="dusting the bookshelfs..." textFill="#efefef">
+         <font>
+            <Font name="Century Gothic Italic" size="18.0" />
+         </font>
+      </Label>
+      <ImageView fx:id="myShelfieLogo" fitHeight="45.0" fitWidth="45.0" layoutX="1175.0" layoutY="589.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@Graphics/Publisher_material/Icon_50x50px.png" />
+         </image>
+      </ImageView>
+    </children>
+</AnchorPane>

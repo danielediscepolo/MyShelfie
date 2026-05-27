@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="650.0" prefWidth="1200.0" xmlns="http://javafx.com/javafx/20.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="it.polimi.ingsw.controller.EndgameController">
+    <children>
+        <AnchorPane layoutY="-55.0" prefHeight="455.0" prefWidth="623.0" />
+        <ImageView fitHeight="664.0" fitWidth="1262.0" layoutY="-14.0">
+            <image>
+                <Image url="@Graphics/misc/base_pagina2.jpg" />
+            </image>
+        </ImageView>
+        <Label alignment="CENTER" layoutX="437.0" layoutY="138.0" prefHeight="34.0" prefWidth="387.0" text="thank you for playing" textFill="#efefef">
+            <font>
+                <Font name="MS Gothic" size="18.0" />
+            </font>
+        </Label>
+        <Label alignment="CENTER" layoutX="295.0" layoutY="32.0" prefHeight="153.0" prefWidth="656.0" text="CONGRATULATIONS!!!" textFill="#efefef">
+            <font>
+                <Font name="Monotype Corsiva" size="48.0" />
+            </font>
+        </Label>
+        <ImageView fx:id="myShelfieLogo" fitHeight="45.0" fitWidth="45.0" layoutX="56.0" layoutY="571.0" pickOnBounds="true" preserveRatio="true">
+            <image>
+                <Image url="@Graphics/Publisher_material/Icon_50x50px.png" />
+            </image>
+        </ImageView>
+        <Label alignment="CENTER" layoutX="130.0" layoutY="289.0" prefHeight="154.0" prefWidth="575.0" text="And the Winner is ..." textFill="#efefef">
+            <font>
+                <Font name="Monotype Corsiva" size="54.0" />
+            </font>
+        </Label>
+        <VBox layoutX="574.0" layoutY="280.0" prefHeight="200.0" prefWidth="500.0">
+            <children>
+                <Label fx:id="winnerLabel" alignment="CENTER" prefHeight="174.0" prefWidth="492.0" textFill="#a97e11">
+                    <font>
+                        <Font name="Monotype Corsiva" size="64.0" />
+                    </font>
+                </Label>
+            </children>
+        </VBox>
+        <Label layoutX="793.0" layoutY="594.0" prefHeight="27.0" prefWidth="454.0" text="a project by Daniele, Jacopo, Gabriele, Alice" textFill="WHITE">
+            <font>
+                <Font name="Bodoni MT" size="22.0" />
+            </font>
+        </Label>
+    </children>
+</AnchorPane>
+
